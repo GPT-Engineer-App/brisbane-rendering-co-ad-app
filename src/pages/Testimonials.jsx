@@ -12,7 +12,20 @@ const Testimonials = () => {
           <Avatar name="John Doe" src="" />
           <Text fontWeight="bold">John Doe</Text>
         </Box>
-        {}
+        <Box bg="gray.100" p={6} borderRadius="md">
+          <Text fontSize="xl" mb={4}>
+            "We are thrilled with the interior rendering work done by Brisbane Rendering. The team's attention to detail and craftsmanship have transformed our living room into a beautiful, inviting space. Thank you!"
+          </Text>
+          <Avatar name="Jane Smith" src="" />
+          <Text fontWeight="bold">Jane Smith</Text>
+        </Box>
+        <Box bg="gray.100" p={6} borderRadius="md">
+          <Text fontSize="xl" mb={4}>
+            "Brisbane Rendering provided exceptional service from start to finish. They helped us choose the perfect texture for our feature wall and delivered outstanding results. We couldn't be happier with their work!"
+          </Text>
+          <Avatar name="Mark Johnson" src="" />
+          <Text fontWeight="bold">Mark Johnson</Text>
+        </Box>
       </VStack>
     </Box>
   );

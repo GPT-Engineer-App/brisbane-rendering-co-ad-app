@@ -9,13 +9,15 @@ const Gallery = () => {
         Exterior Rendering
       </Heading>
       <SimpleGrid columns={[1, 2, 3]} spacing={4} mt={4}>
-        {}
+        <Image src="https://i.ebayimg.com/images/g/yc4AAOSwDMxkDPGY/s-l800.webp" alt="Exterior Rendering 1" borderRadius="md" loading="lazy" />
+        <Image src="https://i.ebayimg.com/images/g/L6AAAOSwkvxkDPGZ/s-l800.webp" alt="Exterior Rendering 2" borderRadius="md" loading="lazy" />
+        <Image src="https://i.ebayimg.com/images/g/oVQAAOSwxzxkDPGX/s-l800.webp" alt="Exterior Rendering 3" borderRadius="md" loading="lazy" />
         <Image src="https://i.ebayimg.com/images/g/yc4AAOSwDMxkDPGY/s-l800.webp" alt="Exterior Rendering 1" borderRadius="md" />
         <Image src="https://i.ebayimg.com/images/g/L6AAAOSwkvxkDPGZ/s-l800.webp" alt="Exterior Rendering 2" borderRadius="md" />
         <Image src="https://i.ebayimg.com/images/g/oVQAAOSwxzxkDPGX/s-l800.webp" alt="Exterior Rendering 3" borderRadius="md" />
       </SimpleGrid>
       <Heading as="h2" size="xl" mt={8}>
-        Interior Rendering  
+        Interior Rendering
       </Heading>
       <SimpleGrid columns={[1, 2, 3]} spacing={4} mt={4}>
         <Image src="https://example.com/interior1.jpg" alt="Interior Rendering 1" borderRadius="md" />
