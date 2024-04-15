@@ -29,12 +29,12 @@ const Index = () => {
     <Box maxWidth="800px" margin="auto" padding={8}>
       <VStack spacing={8} align="stretch">
         <Heading as="h1" size="2xl" textAlign="center" color="blue.500">
-          Brisbane Rendering Co.
+          Brisbane Rendering - Quality You Can Trust
         </Heading>
         <Text fontSize="xl" textAlign="center">
-          Quality You Can Trust
+          Rendering Services for All Types of Projects
         </Text>
-        <Image src="https://images.unsplash.com/photo-1452626212852-811d58933cae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHJlbmRlcmluZyUyMGJyaXNiYW5lfGVufDB8fHx8MTcxMzIwODQ1Mnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Rendered House" borderRadius="md" />
+        <Image src="https://i.ebayimg.com/images/g/oVQAAOSwxzxkDPGX/s-l800.webp" alt="Rendered House" borderRadius="md" />
         <Box bg="gray.100" p={6} borderRadius="md">
           <Heading as="h2" size="xl" mb={4}>
             <FaQuoteLeft /> Get a Quote
