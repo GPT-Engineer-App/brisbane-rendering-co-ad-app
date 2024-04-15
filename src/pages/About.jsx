@@ -16,6 +16,20 @@ const About = () => {
         <li>Feature Walls</li>
         <li>Remedial Repairs</li>
       </ul>
+      <Heading as="h2" size="xl" mt={8}>
+        Our Mission
+      </Heading>
+      <Text>At Brisbane Rendering, our mission is to provide top-quality rendering services that enhance the beauty and value of properties across Brisbane. We strive to exceed our clients' expectations by delivering exceptional workmanship, using the finest materials, and maintaining open communication throughout every project.</Text>
+      <Heading as="h2" size="xl" mt={8}>
+        Why Choose Us?
+      </Heading>
+      <ul>
+        <li>Over 15 years of industry experience</li>
+        <li>Skilled and professional team</li>
+        <li>High-quality materials and techniques</li>
+        <li>Attention to detail and customer satisfaction</li>
+        <li>Competitive pricing and excellent value</li>
+      </ul>
     </Box>
   );
 };
